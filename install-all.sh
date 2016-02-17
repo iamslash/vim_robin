@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VIMHOME=~/.vim
+VIM_HOME=~/.vim
 VIM_ROBIN_HOME=~/vim_robin
 
 warn() {
@@ -18,14 +18,14 @@ die() {
 [ -e "~/.vimrc" ] && die "~/.vimrc already exists."
 
 # clone vimrc
-git clone git://github.com/iamslash/vimrc.git "$VIM_ROBIN_HOME"
+git clone git://github.com/iamslash/vim_robin.git $VIM_ROBIN_HOME
 ln -s "$VIM_ROBIN_HOME/.vimrc" ~/.vimrc
-mkdir "$VIMHOME/tags"
+mkdir "$VIM_HOME/tags"
 
 # clone Vundle 
-mkdir "$VIMHOME"
-mkdir "$VIMHOME/bundle"
-git clone https://github.com/gmarik/Vundle.vim.git "$VIMHOME/bundle/Vundle.vim"  
+mkdir $VIM_HOME
+mkdir "$VIM_HOME/bundle"
+git clone https://github.com/gmarik/Vundle.vim.git "$VIM_HOME/bundle/Vundle.vim"  
 
 #
 vim +PluginInstall +qall  

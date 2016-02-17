@@ -1,8 +1,10 @@
 #!/bin/sh
 
 VIM_HOME=~/.vim
+VIM_ROBIN_HOME=~/.vim
 
 rm -rf "$VIM_HOME"
+rm -rf "$VIM_ROBIN_HOME"
 rm ~/.vimrc
 
-echo "vimrc is uninstalled."
+echo "vim_robin is uninstalled."

@@ -13,7 +13,7 @@ die() {
 }
 
 # validate
-[ -e "~/vimrc" ] && die "~/vimrc already exists."
+[ -e $VIM_ROBIN_HOME ] && die "$VIM_ROBIN_HOME already exists."
 [ -e "~/.vim" ] && die "~/.vim already exists."
 [ -e "~/.vimrc" ] && die "~/.vimrc already exists."
 

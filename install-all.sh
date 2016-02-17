@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VIM_HOME=~/.vim
-VIM_ROBIN_HOME=~/vim_robin
+VIM_ROBIN_HOME=~/.vim_robin
 
 warn() {
     echo "$1" >&2

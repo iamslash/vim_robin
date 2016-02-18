@@ -21,6 +21,20 @@ Use curl (for Mac OS X):
 * [Scripting the Vim editor, Part 1: Variables, values, and expressions](http://www.ibm.com/developerworks/library/l-vim-script-1/)
 * [Scripting the Vim editor, Part 2: User-defined functions](http://www.ibm.com/developerworks/library/l-vim-script-2/)
 
+# vim with shell
+
+~~~~
+:!{cmd}
+:r!{cmd}
+:w !{cmd}
+:grep / :set grepprg
+:make / :set makeprg
+^\s / :set cscopeprg
+= / :set equalprg
+gq / :set formatprg
+K / :set keywordprg
+~~~~
+
 # for c++ (for Mac OS X):
 ~~~~
 > brew install ctags

@@ -17,6 +17,7 @@ Use curl (for Mac OS X):
 
 # How to learn vim script
 
+* [Five Minute Vimscript](http://andrewscala.com/vimscript/)
 * [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 * [Scripting the Vim editor, Part 1: Variables, values, and expressions](http://www.ibm.com/developerworks/library/l-vim-script-1/)
 * [Scripting the Vim editor, Part 2: User-defined functions](http://www.ibm.com/developerworks/library/l-vim-script-2/)

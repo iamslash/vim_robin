@@ -15,13 +15,13 @@ Use curl (for Mac OS X):
 > curl -o - https://raw.githubusercontent.com/iamslash/vim_robin/master/uninstall-all.sh | sh
 ~~~~
 
-# How to learn VI script
+# How to learn vim script
 
 * [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 * [Scripting the Vim editor, Part 1: Variables, values, and expressions](http://www.ibm.com/developerworks/library/l-vim-script-1/)
 * [Scripting the Vim editor, Part 2: User-defined functions](http://www.ibm.com/developerworks/library/l-vim-script-2/)
 
-# vim with shell
+# How to use shell command in vim
 
 ~~~~
 :!{cmd}

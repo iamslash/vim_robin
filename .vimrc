@@ -14,6 +14,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'The-NERD-tree'
 Plugin 'OmniCppComplete'
+Plugin 'csharp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -91,8 +92,8 @@ set tm=500
 
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
-   set softtabstop=3 
-   set shiftwidth=3 
+   set softtabstop=4 
+   set shiftwidth=4 
 
    au FileType Makefile set noexpandtab
 "}      							

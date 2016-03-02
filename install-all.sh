@@ -18,7 +18,7 @@ die() {
 [ -e "~/.vimrc" ] && die "~/.vimrc already exists."
 
 # clone vimrc
-git clone git://github.com/iamslash/vim_robin.git $VIM_ROBIN_HOME
+git clone git@github.com:iamslash/vim_robin.git $VIM_ROBIN_HOME
 ln -s "$VIM_ROBIN_HOME/.vimrc" ~/.vimrc
 mkdir "$VIM_HOME"
 mkdir "$VIM_HOME/tags"

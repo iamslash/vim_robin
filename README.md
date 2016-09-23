@@ -22,6 +22,13 @@ Use curl (for Mac OS X):
 * [Scripting the Vim editor, Part 1: Variables, values, and expressions](http://www.ibm.com/developerworks/library/l-vim-script-1/)
 * [Scripting the Vim editor, Part 2: User-defined functions](http://www.ibm.com/developerworks/library/l-vim-script-2/)
 
+# How to view help
+
+```
+:help help
+:help window
+```
+
 # How to use shell command in vim
 
 ~~~~
@@ -34,6 +41,13 @@ Use curl (for Mac OS X):
 = / :set equalprg
 gq / :set formatprg
 K / :set keywordprg
+~~~~
+
+# Famous shortcuts
+~~~~
+CTRL-N nerd tree toggle
+CTRL-W <Left>
+CTRL-W <Right>
 ~~~~
 
 # for c++ (for Mac OS X):

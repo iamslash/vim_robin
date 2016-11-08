@@ -66,10 +66,18 @@ CTRL-W <Left>
 CTRL-W <Right>
 ~~~~
 
-# for c++ (for Mac OS X):
+# for c++
+
+- osx
 ~~~~
 > brew install ctags
 > ctags -R --sort=1 --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ -f cpp /usr/include/c++/4.2.1/
+~~~~
+
+- windows
+~~~~
+> choco install ctags
+> ctags -R --sort=1 --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ -f cpp C:\tools\mingw64\x86_64-w64-mingw32\include\c++
 ~~~~
 
 # for cs 

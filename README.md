@@ -1,18 +1,34 @@
 
-# Install
+# Setting on osx
 
-Use curl (for Mac OS X):
+- Install on osx
+
 ~~~~
 > brew install vim --override-system-vi
 > brew install curl
 > curl -o - https://raw.githubusercontent.com/iamslash/vim_robin/master/install-all.sh | sh
 ~~~~
 
-# UnInstall
+- UnInstall on osx
 
-Use curl (for Mac OS X):
 ~~~~
 > curl -o - https://raw.githubusercontent.com/iamslash/vim_robin/master/uninstall-all.sh | sh
+~~~~
+
+# Setting on windows
+
+- Install on windows (Administrator)
+
+~~~~
+> choco install vim
+> choco install curl
+> curl -o - http://raw.githubusercontent.com/iamslash/vim_robin/master/install-all.bat | cmd.exe
+~~~~
+
+- Uninstall on windows
+
+~~~~
+> curl -o - http://raw.githubusercontent.com/iamslash/vim_robin/master/uninstall-all.bat | cmd.exe
 ~~~~
 
 # How to learn vim script
